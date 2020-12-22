@@ -24,6 +24,8 @@ public class Main2 {
     public static List<City> firstSubList(List<City> list, int start, int end){
         List<City> cities;
         cities = list.subList(start, end);
+
         return cities;
     }
+
 }
