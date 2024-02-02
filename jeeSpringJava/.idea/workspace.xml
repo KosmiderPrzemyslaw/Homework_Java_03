@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d7f786f-edcf-4626-9aeb-25e059a35afb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JUnit/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnit/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnit/src/main/java/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnit/src/main/java/FactorialExampl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnit/src/main/java/FirstClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnit/src/main/java/FirstTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnit/src/main/java/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnit/src/main/java/Grader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnit/src/main/java/MaxValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnit/src/main/java/SecondClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnit/src/main/java/SimpleCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnit/src/main/java/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnit/src/main/java/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnit/src/test/java/AllTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnit/src/test/java/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnit/src/test/java/FirstClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnit/src/test/java/FirstTestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnit/src/test/java/FizzBuzzTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnit/src/test/java/GraderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnit/src/test/java/SecondClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JUnit/src/test/java/SimpleCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootThymeleaf/src/main/java/pl/kosmider/demo/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootThymeleaf/src/main/java/pl/kosmider/demo/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootThymeleaf/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootThymeleaf/src/main/resources/templates/registerForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBootThymeleaf/src/main/resources/templates/registerSuccess.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demokosmider/src/main/java/pl/kosmider/demokosmider/controllers/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demokosmider/src/main/java/pl/kosmider/demokosmider/controllers/models/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demokosmider/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demokosmider/src/main/resources/messages_pl.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demokosmider/src/main/webapp/WEB-INF/views/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demokosmider/src/main/webapp/WEB-INF/views/spring.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designPatterns/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__net_minidev_json_smart_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_68.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_68.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_68.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_assertj_assertj_core_3_22_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_springframework_spring_aop_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_springframework_spring_beans_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_springframework_spring_context_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_springframework_spring_core_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_springframework_spring_expression_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_springframework_spring_test_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_springframework_spring_web_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doocker/Dockerfile_prod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doocker/Dockerfile_test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doocker/src/main/java/pl/kosmider/doocker/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaAdvancedDay01/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SpringDiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringXML/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringXML/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringXML/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringXML/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringXML/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringXML/src/main/java/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringXML/src/main/java/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringXML/src/main/java/MessageSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringXML/src/main/java/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringXML/src/main/java/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringXML/src/main/java/SmsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringXML/src/main/java/SpringDiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringXML/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringauto1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringauto1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringauto1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringauto1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringauto1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringauto1/jeespringauto1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringauto1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringauto1/src/main/java/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringauto1/src/main/java/SpringDiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringauto1/src/main/java/beans/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringauto1/src/main/java/beans/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringauto1/src/main/java/test/EmailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringauto1/src/main/java/test/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringauto1/src/main/java/test/MessageSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringauto1/src/main/java/test/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringauto1/src/main/java/test/SmsSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringjava/src/main/java/powt/Kaptain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringjava/src/main/java/powt/Shiip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringjava/src/main/java/powt/Task1/Adress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringjava/src/main/java/powt/Task1/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringjava/src/main/java/powt/Task1/CustomerLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringjava/src/main/java/powt/Task1/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringjava/src/main/java/powt/Task1/Def.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringjava/src/main/java/powt/Task1/Default.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringjava/src/main/java/powt/Task1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringjava/src/main/java/powt/Task1/MemoryCustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringjava/src/main/java/powt/Task1/SimpleCustomerLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jeespringxml/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tasksspringday1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tasksspringday1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tasksspringday1/src/main/java/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tasksspringday1/src/main/java/SpringDiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../videoApplication/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../videoApplication/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../videoApplication/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../videoApplication/src/main/java/pl/kosmider/videoApp/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../videoApplication/src/main/java/pl/kosmider/videoApp/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_Java_03_Servlety/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_Java_03_Servlety/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework_Java_03_Servlety/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Homework_Java_03_Servlety/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JeeSpringMaven/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JeeSpringMaven/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JeeSpringMaven/src/main/java/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JeeSpringMaven/src/main/java/AppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JeeSpringMaven/src/main/java/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module06Kosmider/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module06Kosmider/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module06Kosmider/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module06Kosmider/src/main/java/app/controllers/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module06Kosmider/src/main/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mvc_Spring/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mvc_Spring/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mvc_Spring/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mvc_Spring/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mvc_Spring/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mvc_Spring/Mvc_Spring.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mvc_Spring/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mvc_Spring/src/main/java/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mvc_Spring/src/main/java/AppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mvc_Spring/src/main/java/Controllers/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mvc_Spring/src/main/java/Controllers/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mvc_Spring/src/main/java/Controllers/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mvc_Spring/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Hibernate_day01/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Hibernate_day01/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Hibernate_day01/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Hibernate_day01/src/main/java/pl/kosmider/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Hibernate_day01/src/main/java/pl/kosmider/AppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Hibernate_day01/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day_2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day_2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day_2/src/main/java/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day_2/src/main/java/AppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day_2/src/main/java/controllers/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day_2/src/main/webapp/WEB-INF/views/hello.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_day_2/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_seed_manager/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_seed_manager/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_seed_manager/.idea/libraries/J2EE_1_4_J2EE_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_seed_manager/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_seed_manager/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_seed_manager/Spring_seed_manager.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_seed_manager/src/main/java/thymeleafexamples/SpringWebApplicationInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_seed_manager/src/main/java/thymeleafexamples/buisness/SpringBusinessConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_seed_manager/src/main/java/thymeleafexamples/web/SpringWebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Warsztat_Spring/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Warsztat_Spring/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Warsztat_Spring/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Warsztat_Spring/Warsztat_Spring.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Warsztat_Spring/src/main/java/app/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Warsztat_Spring/src/main/java/app/AppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Warsztaty_REST_Spring/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Warsztaty_REST_Spring/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Warsztaty_REST_Spring/Warsztaty_REST_Spring.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Warsztaty_REST_Spring/src/main/java/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Warsztaty_REST_Spring/src/main/java/AppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Warsztaty_REST_Spring/src/main/java/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Warsztaty_REST_Spring/src/main/resources/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Warsztaty_REST_Spring/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-thymeleaf/src/main/java/pl/kosmider/appthymeleaf/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app-thymeleaf/src/main/java/pl/kosmider/appthymeleaf/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-thymeleaf/src/main/java/pl/kosmider/appthymeleaf/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app-thymeleaf/src/main/java/pl/kosmider/appthymeleaf/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-thymeleaf/src/main/java/pl/kosmider/appthymeleaf/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app-thymeleaf/src/main/java/pl/kosmider/appthymeleaf/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-thymeleaf/src/main/java/pl/kosmider/appthymeleaf/IGTVGController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app-thymeleaf/src/main/java/pl/kosmider/appthymeleaf/IGTVGController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-thymeleaf/src/main/java/pl/kosmider/appthymeleaf/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app-thymeleaf/src/main/java/pl/kosmider/appthymeleaf/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-thymeleaf/src/main/resources/templates/car.html" beforeDir="false" afterPath="$PROJECT_DIR$/../app-thymeleaf/src/main/resources/templates/car.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-thymeleaf/src/main/resources/templates/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/../app-thymeleaf/src/main/resources/templates/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/src/main/java/pl/kosmider/hibernate/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_test/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_test/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_test/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_test/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/AppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/controllers/AuthorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/controllers/AuthorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/controllers/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/controllers/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/controllers/HoimeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/controllers/HoimeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/controllers/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/controllers/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/controllers/PublisherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/controllers/PublisherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/dao/AuthorDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/dao/AuthorDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/dao/BookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/dao/PersonDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/dao/PersonDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/dao/PublisherDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/dao/PublisherDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/entity/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/entity/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/entity/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/entity/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/entity/PersonDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/entity/PersonDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/entity/Publisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_test/src/main/java/pl/kosmider/entity/Publisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate_test/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate_test/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homeworkspring/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../homeworkspring/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jee-spring-mvc/.idea/jee-spring-mvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../jee-spring-mvc/.idea/jee-spring-mvc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jee-spring-mvc/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jee-spring-mvc/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jee1springxml/src/main/java/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jee1springxml/src/main/java/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jee1springxml/src/main/java/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jee1springxml/src/main/java/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jee1springxml/src/main/java/MessageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jee1springxml/src/main/java/MessageSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jee1springxml/src/main/java/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jee1springxml/src/main/java/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jee1springxml/src/main/java/SmsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jee1springxml/src/main/java/SmsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jee1springxml/src/main/java/SpringDiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jee1springxml/src/main/java/SpringDiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jee1springxml/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jee1springxml/src/main/resources/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringauto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jeespringauto/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringauto/src/main/java/app/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jeespringauto/src/main/java/app/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringauto/src/main/java/app/SpringDiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jeespringauto/src/main/java/app/SpringDiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringauto/src/main/java/app/beans/PersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jeespringauto/src/main/java/app/beans/PersonRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringauto/src/main/java/app/beans/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jeespringauto/src/main/java/app/beans/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringjava1/src/main/java/app/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jeespringjava1/src/main/java/app/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringjava1/src/main/java/app/SpringDiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jeespringjava1/src/main/java/app/SpringDiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringjava1/src/main/java/app/presentation/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jeespringjava1/src/main/java/app/presentation/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringjava1/src/main/java/app/presentation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jeespringjava1/src/main/java/app/presentation/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringjava1/src/main/java/app/presentation/MessageSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jeespringjava1/src/main/java/app/presentation/MessageSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringjava1/src/main/java/app/presentation/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jeespringjava1/src/main/java/app/presentation/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringjava1/src/main/java/app/presentation/SMSService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jeespringjava1/src/main/java/app/presentation/SMSService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringjava1/src/main/java/beans/Captain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jeespringjava1/src/main/java/beans/Captain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringjava1/src/main/java/beans/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jeespringjava1/src/main/java/beans/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringjava1/src/main/java/beans/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jeespringjava1/src/main/java/beans/Ship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kosmo/src/main/java/com/example/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kosmo/src/main/java/com/example/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kosmo/src/main/java/com/example/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kosmo/src/main/java/com/example/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kosmo/src/main/java/com/example/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kosmo/src/main/java/com/example/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kosmo/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../kosmo/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../praca1/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../praca1/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../praca1/src/main/java/Main10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../praca1/src/main/java/Main10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../praca1/src/main/java/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../praca1/src/main/java/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../praca1/src/main/java/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../praca1/src/main/java/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../praca1/src/main/java/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../praca1/src/main/java/Main4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../praca1/src/main/java/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../praca1/src/main/java/Main5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../praca1/src/main/java/Main6.java" beforeDir="false" afterPath="$PROJECT_DIR$/../praca1/src/main/java/Main6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../praca1/src/main/java/Main7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../praca1/src/main/java/Main7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../praca1/src/main/java/Main8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../praca1/src/main/java/Main8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../praca1/src/main/java/Main9.java" beforeDir="false" afterPath="$PROJECT_DIR$/../praca1/src/main/java/Main9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../praca1/src/main/java/bilotTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../praca1/src/main/java/bilotTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../praca1/src/main/java/gFgExmpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../praca1/src/main/java/gFgExmpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../praca1/src/main/java/pliki/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../praca1/src/main/java/pliki/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../praca1/src/main/java/pliki/Rower.java" beforeDir="false" afterPath="$PROJECT_DIR$/../praca1/src/main/java/pliki/Rower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../praca1/src/main/java/pliki/bilotTask2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../praca1/src/main/java/pliki/bilotTask2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../praca1/src/main/java/pliki/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../praca1/src/main/java/pliki/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../seed_manager/src/main/java/pl/kosmider/seed_manager/SpringWebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-presentation-day2/src/main/java/app/FreeTimeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-presentation-day2/src/main/java/app/FreeTimeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-presentation-day2/src/main/java/app/HttpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-presentation-day2/src/main/java/app/HttpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-presentation-day2/src/main/java/app/RandomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-presentation-day2/src/main/java/app/RandomController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-presentation-day2/src/main/webapp/WEB-INF/views/form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-presentation-day2/src/main/webapp/WEB-INF/views/form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-presentation-day2/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-presentation-day2/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-presentation-day2/src/main/webapp/WEB-INF/views/second.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-presentation-day2/src/main/webapp/WEB-INF/views/second.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-presentation-day2/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-presentation-day2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springCMS/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springCMS/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springCMS/src/main/java/pl/kosmider/controllers/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springCMS/src/main/java/pl/kosmider/controllers/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springProjectDay02/.idea/artifacts/unnamed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springProjectDay02/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springProjectDay02/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springProjectDay02/src/main/java/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springProjectDay02/src/main/java/AppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf_kosmider/src/main/java/pl/kosmider/thymeleaf_kosmider/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../thymeleaf_kosmider/src/main/java/pl/kosmider/thymeleaf_kosmider/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf_kosmider/src/main/java/pl/kosmider/thymeleaf_kosmider/business/entities/Row.java" beforeDir="false" afterPath="$PROJECT_DIR$/../thymeleaf_kosmider/src/main/java/pl/kosmider/thymeleaf_kosmider/business/entities/Row.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf_kosmider/src/main/java/pl/kosmider/thymeleaf_kosmider/business/entities/SeedStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../thymeleaf_kosmider/src/main/java/pl/kosmider/thymeleaf_kosmider/business/entities/SeedStarter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf_kosmider/src/main/java/pl/kosmider/thymeleaf_kosmider/business/entities/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/../thymeleaf_kosmider/src/main/java/pl/kosmider/thymeleaf_kosmider/business/entities/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf_kosmider/src/main/java/pl/kosmider/thymeleaf_kosmider/business/entities/Variety.java" beforeDir="false" afterPath="$PROJECT_DIR$/../thymeleaf_kosmider/src/main/java/pl/kosmider/thymeleaf_kosmider/business/entities/Variety.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf_kosmider/src/main/java/pl/kosmider/thymeleaf_kosmider/business/entities/repositories/SeedStarterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../thymeleaf_kosmider/src/main/java/pl/kosmider/thymeleaf_kosmider/business/entities/repositories/SeedStarterRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf_kosmider/src/main/java/pl/kosmider/thymeleaf_kosmider/business/entities/repositories/VarietyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../thymeleaf_kosmider/src/main/java/pl/kosmider/thymeleaf_kosmider/business/entities/repositories/VarietyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf_kosmider/src/main/java/pl/kosmider/thymeleaf_kosmider/business/services/SeedStarterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../thymeleaf_kosmider/src/main/java/pl/kosmider/thymeleaf_kosmider/business/services/SeedStarterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf_kosmider/src/main/java/pl/kosmider/thymeleaf_kosmider/business/services/VarietyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../thymeleaf_kosmider/src/main/java/pl/kosmider/thymeleaf_kosmider/business/services/VarietyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf_kosmider/src/main/java/pl/kosmider/thymeleaf_kosmider/controllers/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../thymeleaf_kosmider/src/main/java/pl/kosmider/thymeleaf_kosmider/controllers/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf_kosmider/src/main/java/pl/kosmider/thymeleaf_kosmider/models/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../thymeleaf_kosmider/src/main/java/pl/kosmider/thymeleaf_kosmider/models/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf_kosmider/src/main/resources/templates/car.html" beforeDir="false" afterPath="$PROJECT_DIR$/../thymeleaf_kosmider/src/main/resources/templates/car.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf_kosmider/src/main/resources/templates/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/../thymeleaf_kosmider/src/main/resources/templates/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf_kosmider/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../thymeleaf_kosmider/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf_seed_manager/src/main/java/pl/kosmider/thymeleaf_seed_manager/SpringWebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../thymeleaf_seed_manager/src/main/java/pl/kosmider/thymeleaf_seed_manager/SpringWebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf_seed_manager/src/main/java/pl/kosmider/thymeleaf_seed_manager/business/SpringBusinessConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../thymeleaf_seed_manager/src/main/java/pl/kosmider/thymeleaf_seed_manager/business/SpringBusinessConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf_seed_manager/src/main/java/pl/kosmider/thymeleaf_seed_manager/web/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../thymeleaf_seed_manager/src/main/java/pl/kosmider/thymeleaf_seed_manager/web/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf_seed_manager/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../thymeleaf_seed_manager/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf_seed_manager/src/main/webapp/WEB-INF/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../thymeleaf_seed_manager/src/main/webapp/WEB-INF/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/Chair.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/src/Chair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/src/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../warsztat_REST/src/main/java/pl/kosmider/Test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../warsztat_REST/src/main/java/pl/kosmider/Test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../warsztat_REST/target/classes/pl/kosmider/Test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../warsztat_REST/target/classes/pl/kosmider/Test/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../warsztat_REST/target/warsztat_REST-1.0-SNAPSHOT/WEB-INF/classes/pl/kosmider/dbUtil/DbUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../warsztat_REST/target/warsztat_REST-1.0-SNAPSHOT/WEB-INF/classes/pl/kosmider/dbUtil/DbUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../warsztat_spring_5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../warsztat_spring_5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../warsztat_spring_5/src/main/java/pl/kosmider/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../warsztat_spring_5/src/main/java/pl/kosmider/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../warsztat_spring_5/src/main/java/pl/kosmider/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../warsztat_spring_5/src/main/java/pl/kosmider/AppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../warsztat_spring_5/src/main/java/pl/kosmider/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../warsztat_spring_5/src/main/java/pl/kosmider/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../warsztat_spring_5/src/main/java/pl/kosmider/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../warsztat_spring_5/src/main/java/pl/kosmider/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../warsztat_spring_5/src/main/java/pl/kosmider/service/MemoryBookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../warsztat_spring_5/src/main/java/pl/kosmider/service/MemoryBookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../warsztat_spring_5/src/main/webapp/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../warsztat_spring_5/src/main/webapp/views/index.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AppConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SpringDiApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="109" selection-start-line="4" selection-start-column="109" selection-end-line="4" selection-end-column="109" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/AppConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpringDiApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1920" />
+    <option name="y" value="-2" />
+    <option name="width" value="1920" />
+    <option name="height" value="1082" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jeeSpringJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeeSpringJava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeeSpringJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeeSpringJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeeSpringJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeeSpringJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jeeSpringJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jeeSpringJava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="SpringDiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SpringDiApplication" />
+      <module name="jeeSpringJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpringDiApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d7f786f-edcf-4626-9aeb-25e059a35afb" name="Default Changelist" comment="" />
+      <created>1683866227197</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683866227197</updated>
+      <workItem from="1683866230401" duration="252000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="252000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1920" y="-2" width="1920" height="1082" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpringDiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="109" selection-start-line="4" selection-start-column="109" selection-end-line="4" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
