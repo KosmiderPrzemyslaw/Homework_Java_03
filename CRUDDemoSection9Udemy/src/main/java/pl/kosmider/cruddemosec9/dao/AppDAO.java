@@ -1,6 +1,10 @@
 package pl.kosmider.cruddemosec9.dao;
 
+import pl.kosmider.cruddemosec9.entity.Course;
 import pl.kosmider.cruddemosec9.entity.Instructor;
+import pl.kosmider.cruddemosec9.entity.InstructorDetail;
+
+import java.util.List;
 
 public interface AppDAO {
     void save(Instructor instructor);
@@ -8,4 +12,20 @@ public interface AppDAO {
     Instructor findInstructorById(int id);
 
     void deleteInstructorById(int id);
+
+    InstructorDetail findInstructorDetailById(int id);
+
+    void deleteInstructorDetailById(int id);
+
+    List<Course> findCoursesByInstructorId(int theId);
+
+    Instructor findInstructorByIdJoinFetch(int theId);
+
+    void update(Instructor tempInstructor);
+
+    void update(Course course);
+
+    Course findCourseById(int theId);
+
+
 }

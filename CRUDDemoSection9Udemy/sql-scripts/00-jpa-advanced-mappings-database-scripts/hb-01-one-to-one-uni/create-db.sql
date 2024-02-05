@@ -21,7 +21,7 @@ CREATE TABLE `instructor` (
   `email` varchar(45) DEFAULT NULL,
   `instructor_detail_id` int DEFAULT NULL,
   PRIMARY KEY (`id`),
-  KEY `FK_DETAIL_idx` (`instructor_detail_id`),
+   KEY `FK_DETAIL_idx` (`instructor_detail_id`),
   CONSTRAINT `FK_DETAIL` FOREIGN KEY (`instructor_detail_id`) REFERENCES `instructor_detail` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
