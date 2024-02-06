@@ -25,7 +25,7 @@ public class Cruddemosec9Application {
 
             //findInstructor(appDAO);
 
-            deleteInstructor(appDAO);
+            //deleteInstructor(appDAO);
 
             //findInstructorDetailById(appDAO);
 
@@ -43,8 +43,16 @@ public class Cruddemosec9Application {
 
             //updateCourse(appDAO);
 
+            //deleteCourse(appDAO);
 
         };
+    }
+
+    private void deleteCourse(AppDAO appDAO) {
+        int theId = 11;
+        System.out.println("DELETING course with id " + theId);
+        appDAO.deleteCourseById(theId);
+
     }
 
     private void updateCourse(AppDAO appDAO) {
