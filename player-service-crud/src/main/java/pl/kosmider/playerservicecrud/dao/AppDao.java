@@ -2,6 +2,9 @@ package pl.kosmider.playerservicecrud.dao;
 
 import pl.kosmider.playerservicecrud.entity.Player;
 import pl.kosmider.playerservicecrud.entity.PlayerDetails;
+import pl.kosmider.playerservicecrud.entity.Training;
+
+import java.util.List;
 
 public interface AppDao {
 
@@ -14,4 +17,8 @@ public interface AppDao {
     PlayerDetails findPlayerDetailsById(int theId);
 
     void deletePlayerDetailsById(int theId);
+
+    List<Training> findTrainingsByPlayerId(int theId);
+
+    Player findPlayerByIdJoinFetch(int theId);
 }

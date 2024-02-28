@@ -2,6 +2,9 @@ package pl.kosmider.playerservicecrud.entity;
 
 import jakarta.persistence.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Entity
 @Table(name = "player")
 public class Player {
@@ -20,6 +23,12 @@ public class Player {
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "player_detail_id")
     private PlayerDetails playerDetails;
+
+    @OneToMany(mappedBy = "player",
+            cascade = {CascadeType.DETACH, CascadeType.MERGE,
+                    CascadeType.PERSIST, CascadeType.REFRESH})
+    private List<Training> trainingList;
+
 
     public Player() {
     }
@@ -53,6 +62,14 @@ public class Player {
         this.lastName = lastName;
     }
 
+    public List<Training> getTrainingList() {
+        return trainingList;
+    }
+
+    public void setTrainingList(List<Training> trainingList) {
+        this.trainingList = trainingList;
+    }
+
     public PlayerDetails getPlayerDetails() {
         return playerDetails;
     }
@@ -69,5 +86,17 @@ public class Player {
                 ", lastName='" + lastName + '\'' +
                 ", playerDetails=" + playerDetails +
                 '}';
+    }
+
+    //add convenience methods for bi-directional relationship
+
+    public void add(Training training) {
+        if (trainingList == null) {
+            trainingList = new ArrayList<>();
+        }
+
+        trainingList.add(training);
+
+        training.setPlayer(this);
     }
 }

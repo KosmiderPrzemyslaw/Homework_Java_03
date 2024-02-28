@@ -1,11 +1,16 @@
 package pl.kosmider.playerservicecrud.dao;
 
 import jakarta.persistence.EntityManager;
+import jakarta.persistence.Query;
+import jakarta.persistence.TypedQuery;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 import pl.kosmider.playerservicecrud.entity.Player;
 import pl.kosmider.playerservicecrud.entity.PlayerDetails;
+import pl.kosmider.playerservicecrud.entity.Training;
+
+import java.util.List;
 
 @Repository
 public class AppDaoImpl implements AppDao {
@@ -53,5 +58,32 @@ public class AppDaoImpl implements AppDao {
         entityManager.remove(playerDetails);
 
         System.out.println("Instructor detail deleted!");
+    }
+
+    @Override
+    public List<Training> findTrainingsByPlayerId(int theId) {
+
+        TypedQuery<Training> query = entityManager.
+                createQuery("FROM Training WHERE player.id =:data", Training.class);
+        query.setParameter("data", theId);
+
+        List<Training> resultList = query.getResultList();
+
+        return resultList;
+    }
+
+    @Override
+    public Player findPlayerByIdJoinFetch(int theId) {
+
+        TypedQuery<Player> query = entityManager.createQuery(
+                "SELECT player FROM Player player " +
+                        "JOIN FETCH player.trainingList " +
+                        "JOIN FETCH player.playerDetails " +
+                        "WHERE player.id = :data", Player.class);
+
+        query.setParameter("data", theId);
+
+        Player player = query.getSingleResult();
+        return player;
     }
 }
