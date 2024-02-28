@@ -21,4 +21,11 @@ public interface AppDao {
     List<Training> findTrainingsByPlayerId(int theId);
 
     Player findPlayerByIdJoinFetch(int theId);
-}
+
+    void update(Player player);
+
+    void update(Training training);
+
+    Training findTrainingById(int theId);
+
+    }

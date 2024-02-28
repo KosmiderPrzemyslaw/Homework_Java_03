@@ -25,7 +25,7 @@ public class PlayerServiceCrudApplication {
 
             //findPlayerById(appDao);
 
-            //deletePlayerById(appDao);
+            deletePlayerById(appDao);
 
             //findPlayerDetailById(appDao);
 
@@ -37,18 +37,48 @@ public class PlayerServiceCrudApplication {
 
             //findTrainingsForPlayer(appDao);
 
-            findPlayerWithListOfTrainingsJoinFetch(appDao);
+            //findPlayerWithListOfTrainingsJoinFetch(appDao);
+
+            //updatePlayer(appDao);
+
+            //updateTraining(appDao);
 
         };
+    }
+
+    private void updateTraining(AppDao appDao) {
+        int theId = 11;
+
+        Training trainingById = appDao.findTrainingById(theId);
+
+        System.out.println("Updating training session: " + theId);
+        trainingById.setTitle("Motor skills");
+
+        appDao.update(trainingById);
+
+    }
+
+    private void updatePlayer(AppDao appDao) {
+
+        int theId = 1;
+
+        System.out.println("Finding player id: " + theId);
+        Player playerById = appDao.findPlayerById(theId);
+
+        System.out.println("Updating player id: " + theId);
+        playerById.setLastName("TESTER");
+
+        appDao.update(playerById);
+
     }
 
     private void findPlayerWithListOfTrainingsJoinFetch(AppDao appDao) {
         int theId = 1;
 
-        System.out.println("Finding instructor id: " + theId);
+        System.out.println("Finding player id: " + theId);
         Player playerByIdJoinFetch = appDao.findPlayerByIdJoinFetch(theId);
 
-        System.out.println("PLayer: "  + playerByIdJoinFetch);
+        System.out.println("Player: "  + playerByIdJoinFetch);
         System.out.println("Associated trainings: "  + playerByIdJoinFetch.getTrainingList());
 
 
@@ -86,14 +116,14 @@ public class PlayerServiceCrudApplication {
     }
 
     private void createPlayerWithTrainings(AppDao appDao) {
-        Player player = new Player("Julian", "Krol");
+        Player player = new Player("Tadek", "Norek");
 
-        PlayerDetails playerDetails = new PlayerDetails("dance", "julian", "21331");
+        PlayerDetails playerDetails = new PlayerDetails("fixing", "tad@gmi.pl", "21331");
 
         player.setPlayerDetails(playerDetails);
 
-        Training training = new Training("speed");
-        Training training2 = new Training("finishing");
+        Training training = new Training("peception");
+        Training training2 = new Training("football skills");
 
         player.add(training);
         player.add(training2);
@@ -119,7 +149,9 @@ public class PlayerServiceCrudApplication {
     }
 
     private void deletePlayerById(AppDao appDao) {
-        appDao.deletePlayerById(1);
+        int theId = 1;
+
+        appDao.deletePlayerById(theId);
 
         System.out.println("Player deleted");
     }
@@ -133,9 +165,9 @@ public class PlayerServiceCrudApplication {
     }
 
     private void createPlayer(AppDao appDao) {
-        Player player = new Player("Julian", "Krol");
+        Player player = new Player("Andrzej", "Kowalski");
 
-        PlayerDetails playerDetails = new PlayerDetails("dance", "julian", "21331");
+        PlayerDetails playerDetails = new PlayerDetails("books", "andrzekj@gmail.cpm", "21312213");
 
         player.setPlayerDetails(playerDetails);
 

@@ -38,6 +38,16 @@ public class AppDaoImpl implements AppDao {
     @Transactional
     public void deletePlayerById(int theId) {
         Player player = entityManager.find(Player.class, theId);
+
+        List<Training> trainingList = player.getTrainingList();
+
+        //break association of all trainings for the player
+
+        for (Training tempTraining:trainingList
+             ) {
+            tempTraining.setPlayer(null);
+        }
+
         entityManager.remove(player);
     }
 
@@ -85,5 +95,22 @@ public class AppDaoImpl implements AppDao {
 
         Player player = query.getSingleResult();
         return player;
+    }
+
+    @Override
+    @Transactional
+    public void update(Player player) {
+        entityManager.merge(player);
+    }
+
+    @Override
+    @Transactional
+    public void update(Training training) {
+        entityManager.merge(training);
+    }
+
+    @Override
+    public Training findTrainingById(int theId) {
+        return entityManager.find(Training.class, theId);
     }
 }
