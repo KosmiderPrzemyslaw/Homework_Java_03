@@ -1,7 +1,6 @@
 package pl.kosmider.playerservicecrud.dao;
 
 import jakarta.persistence.EntityManager;
-import jakarta.persistence.Query;
 import jakarta.persistence.TypedQuery;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -112,5 +111,15 @@ public class AppDaoImpl implements AppDao {
     @Override
     public Training findTrainingById(int theId) {
         return entityManager.find(Training.class, theId);
+    }
+
+    @Override
+    @Transactional
+    public void deleteTrainingById(int theId) {
+        //retrive the training
+        Training training = entityManager.find(Training.class, theId);
+
+        entityManager.remove(training);
+
     }
 }

@@ -21,11 +21,11 @@ public class PlayerServiceCrudApplication {
     @Bean
     public CommandLineRunner commandLineRunner(AppDao appDao) {
         return runner -> {
-             //createPlayer(appDao);
+            //createPlayer(appDao);
 
             //findPlayerById(appDao);
 
-            deletePlayerById(appDao);
+            //deletePlayerById(appDao);
 
             //findPlayerDetailById(appDao);
 
@@ -43,7 +43,15 @@ public class PlayerServiceCrudApplication {
 
             //updateTraining(appDao);
 
+            deleteTraining(appDao);
+
         };
+    }
+
+    private void deleteTraining(AppDao appDao) {
+        int theId = 10;
+        System.out.println("Deleting Training: " + theId);
+        appDao.deleteTrainingById(theId);
     }
 
     private void updateTraining(AppDao appDao) {
@@ -78,8 +86,8 @@ public class PlayerServiceCrudApplication {
         System.out.println("Finding player id: " + theId);
         Player playerByIdJoinFetch = appDao.findPlayerByIdJoinFetch(theId);
 
-        System.out.println("Player: "  + playerByIdJoinFetch);
-        System.out.println("Associated trainings: "  + playerByIdJoinFetch.getTrainingList());
+        System.out.println("Player: " + playerByIdJoinFetch);
+        System.out.println("Associated trainings: " + playerByIdJoinFetch.getTrainingList());
 
 
     }
@@ -93,7 +101,7 @@ public class PlayerServiceCrudApplication {
 
         System.out.println(playerById);
 
-        System.out.println("Finding trainings for player id: "  + theId);
+        System.out.println("Finding trainings for player id: " + theId);
 
         List<Training> trainingsByPlayerId = appDao.findTrainingsByPlayerId(theId);
 

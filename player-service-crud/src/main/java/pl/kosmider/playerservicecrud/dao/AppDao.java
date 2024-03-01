@@ -28,4 +28,6 @@ public interface AppDao {
 
     Training findTrainingById(int theId);
 
+    void deleteTrainingById(int theId);
+
     }
