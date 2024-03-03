@@ -8,6 +8,7 @@ import pl.kosmider.playerservicecrud.dao.AppDao;
 import pl.kosmider.playerservicecrud.entity.Player;
 import pl.kosmider.playerservicecrud.entity.PlayerDetails;
 import pl.kosmider.playerservicecrud.entity.Training;
+import pl.kosmider.playerservicecrud.entity.TrainingReview;
 
 import java.util.List;
 
@@ -43,9 +44,30 @@ public class PlayerServiceCrudApplication {
 
             //updateTraining(appDao);
 
-            deleteTraining(appDao);
+            //deleteTraining(appDao);
+
+            //createTrainingAndReviews(appDao);
+
+            retrieveTrainingsAndReviews(appDao);
 
         };
+    }
+
+    private void retrieveTrainingsAndReviews(AppDao appDao) {
+        Training training = appDao.findTrainingAndTrainingReviewByTrainingId(10);
+
+        System.out.println("Training: "  + training);
+        System.out.println("Training reviews: "  + training.getReviews());
+    }
+
+    private void createTrainingAndReviews(AppDao appDao) {
+        Training training = new Training("How to score more goals");
+
+        training.addReview(new TrainingReview("Great course..loved it!"));
+        training.addReview(new TrainingReview("I dont recommend"));
+        training.addReview(new TrainingReview("Good!"));
+
+        appDao.save(training);
     }
 
     private void deleteTraining(AppDao appDao) {

@@ -42,8 +42,8 @@ public class AppDaoImpl implements AppDao {
 
         //break association of all trainings for the player
 
-        for (Training tempTraining:trainingList
-             ) {
+        for (Training tempTraining : trainingList
+        ) {
             tempTraining.setPlayer(null);
         }
 
@@ -121,5 +121,26 @@ public class AppDaoImpl implements AppDao {
 
         entityManager.remove(training);
 
+    }
+
+    @Override
+    @Transactional
+    public void save(Training training) {
+        //save training and associated training review because of CascadeType.all
+        entityManager.persist(training);
+    }
+
+    @Override
+    public Training findTrainingAndTrainingReviewByTrainingId(int theId) {
+        //create query
+        TypedQuery<Training> query = entityManager.createQuery(
+                "select t from Training t " +
+                        "JOIN FETCH t.reviews " +
+                        "where t.id = :data", Training.class);
+
+        query.setParameter("data", theId);
+        Training training = query.getSingleResult();
+
+        return training;
     }
 }

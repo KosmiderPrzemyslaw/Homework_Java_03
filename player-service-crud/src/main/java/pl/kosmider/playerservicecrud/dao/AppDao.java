@@ -30,4 +30,8 @@ public interface AppDao {
 
     void deleteTrainingById(int theId);
 
+    void save(Training training);
+
+    Training findTrainingAndTrainingReviewByTrainingId(int theId);
+
     }
